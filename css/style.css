@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #222;
+    text-align: center;
+}
+
+#hi-text {
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#name-text {
+    font-size: 4em;
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+.intro-text {
+    color: #fff;
+    font-size: 2em;
+}
+
+.head-link {
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+    font-size: 2em;
+    color: #3390ec;
+    text-decoration: none;
+}
+
+.head-link:link {
+    font-size: 2em;
+    color: #3390ec;
+    text-decoration: none;
+    border-bottom: 1px solid deepskyblue;
+}
+
+.head-link:hover {
+    font-size: 2em;
+    color: #3390ec;
+    border-bottom: 6px solid deepskyblue;
+    text-decoration: blink;
+}
+
+.horizontal-line {
+    height: 2px;
+    border-width: 0;
+    color: deepskyblue;
+    background-color: deepskyblue;
+}
+
+.section-head-text {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.section-head-text-emphasize {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+.project-title-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.made-with-text {
+    font-size: 1em;
+    color: #ddd;
+}
+
+.project-link {
+    border: 2px solid #3390ec;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3390ec;
+    margin: 10px 5px;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.project-link:hover {
+    background-color: #3390ec;
+    color: #fff;
+}
