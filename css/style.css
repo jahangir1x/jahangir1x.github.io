@@ -10,6 +10,16 @@ body {
     text-align: center;
 }
 
+.container {
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
 #hi-text {
     color: #fff;
     font-size: 4em;
