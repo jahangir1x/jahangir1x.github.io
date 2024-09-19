@@ -59,7 +59,12 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Configure custom root-index and blog-index page
+        run: |
+          mv ./public/index.html ./public/blog/index.html \
+          && mv ./public/index.xml ./public/blog/index.xml \
+          && mv ./public/root.html ./public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
