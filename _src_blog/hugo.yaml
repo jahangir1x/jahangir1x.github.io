@@ -91,10 +91,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/jahangir1x/jahangir1x.github.io/_src_blog/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+    # URL: "https://github.com/jahangir1x/jahangir1x.github.io/_src_blog/content"
+    # Text: "Suggest Changes" # edit text
+    # appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -114,11 +114,11 @@ menu:
       url: /
       weight: 10
     - identifier: categories
-      name: ~/categories
+      name: ./categories
       url: /categories/
       weight: 20
     - identifier: tags
-      name: ~/tags
+      name: ./tags
       url: /tags/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

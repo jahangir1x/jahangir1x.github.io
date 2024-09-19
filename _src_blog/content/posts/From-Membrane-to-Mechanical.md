@@ -1,18 +1,16 @@
 ---
-title: "Post title"
-date: 2020-09-15T11:30:03+00:00
+title: 'From Membrane to Mechanical: Arduino Nano (CH340x) and Hardwired chaos'
+date: 2024-09-17T21:37:41+06:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
+tags: ["tag1", "tag2"]
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -30,17 +28,5 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/jahangir1x/jahangir1x.github.io/_src_blog/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 
-# hello
-
-## testing 
-
-
-```c++
-#include bits
-```
