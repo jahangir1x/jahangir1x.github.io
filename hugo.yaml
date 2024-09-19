@@ -1,4 +1,4 @@
-baseURL: https://jahangir1x.github.io/blog/
+baseURL: https://jahangir1x.github.io/
 languageCode: en-us
 title: Jahangir Alam Rocky
 theme: PaperMod
@@ -8,8 +8,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-publishDir: ../blog
 
 params:
   env: production
@@ -111,7 +109,7 @@ menu:
   main:
     - identifier: blog
       name: ~/blog
-      url: /
+      url: /blog/
       weight: 10
     - identifier: categories
       name: ./categories
