@@ -1,4 +1,4 @@
-import {script1} from './script1.js';
+import {script1} from '/app-res/script1.js';
 
 const script2 = {
   clickAction2() {
