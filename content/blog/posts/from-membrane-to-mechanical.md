@@ -1,5 +1,5 @@
 ---
-title: 'From Membrane to Mechanical: Arduino Nano (CH340x) and Hardwired chaos'
+title: 'From Membrane to Mechanical: Arduino Nano (CH340x) and Hardwired hell'
 date: 2024-09-17T21:37:41+06:00
 # weight: 1
 # aliases: ["/first"]

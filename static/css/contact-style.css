@@ -15,19 +15,6 @@
     font-size: 1.4rem;
     color: #adcfdb;
 }
-.avatar-row {
-    position: fixed;
-    top: -20;
-    left: 20;
-    margin-top: 0.5rem;
-    width: 20vw;
-    /* max-width: 20vw; */
-}
-.navbar-row {
-    width: 100vw;
-    border-bottom: 1px solid #3390ec;
-    backdrop-filter: blur(20px);
-}
 .form-element-title {
     color: #00bfff;
     margin-bottom: 0;
@@ -38,12 +25,37 @@
 .form-field-red {
     border-color: rgb(246, 80, 80);
 }
-.avatar-button:hover {
-    transition: all 0.5s;
-    transform: rotateY(180deg);
-}
 .message-count {
     color: #adcfdb;
     margin-left: 2rem;
     font-size: 0.7rem;
+}
+.avatar-button {
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    transition: all 0.5s !important;
+    padding-right: 15px !important;
+}
+.avatar-button:hover {
+    transform: scale(1.1);
+}
+.avatar-button:hover::after {
+    transform: scale(1);
+}
+.avatar-row {
+    width: 20vw;
+    /* max-width: 20vw; */
+}
+.nav-padding {
+    padding-top: 18px !important;
+}
+.navbar-row {
+    top: -20 !important;
+    left: 20 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed !important;
+    border-bottom: 1px solid #3390ec;
+    width: 100vw;
+    backdrop-filter: blur(20px);
 }
