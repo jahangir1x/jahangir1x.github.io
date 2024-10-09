@@ -79,4 +79,10 @@ obsidian-sync() {
   bash ~/storage/shared/obsidian/.obsidian-vault/.obsidian/sync.sh
 }
 ```
+
+There was some hiccup with *safe directory* in `Termux` so I had to use the `~/storage/shared/obsidian/.obsidian-vault` directory. So, I ran:
+```bash
+git config --global --add safe.directory /storage/shared/obsidian/.obsidian-vault
+```
+
 Now I can run `obsidian-sync` from anywhere in `Termux` to sync my notes.
