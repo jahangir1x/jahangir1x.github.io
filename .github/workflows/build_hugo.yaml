@@ -65,6 +65,10 @@ jobs:
           mv ./public/index.html ./public/blog/index.html \
           && mv ./public/index.xml ./public/blog/index.xml \
           && mv ./public/root.html ./public/index.html
+      - name: Configure 'categories' and 'tags' route
+        run: |
+          mv ./public/categories ./public/blog/categories \
+          && mv ./public/tags ./public/blog/tags
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
