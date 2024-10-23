@@ -4,24 +4,9 @@ date: 2024-10-22T19:25:07+06:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["jq", "sed", "sqlite", "bash"]
-showToc: true
-TocOpen: false
 draft: false
-hidemeta: false
-comments: false
 description: "How I've set up a personal quote database locally for my lockscreen."
 # canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -97,7 +82,7 @@ Now I can get personalized quotes for my lockscreen.
 get_quote() {
     sqlite3 -separator " - " ~/playground/quotes/quotes.db \
         "SELECT quote, REPLACE(author, '\"', '') AS author FROM quotes \
-        WHERE (
+        WHERE ( \
                   author LIKE '%socrates%' \
             OR    author LIKE '%plato%' \
             OR    author LIKE '%aristotle%' \
